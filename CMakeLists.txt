@@ -13,6 +13,7 @@ add_executable(smartHome
 	boost_server/request_parser
 	boost_server/request
 	boost_server/server
+	tools/Utils
 )
 
 target_link_libraries(smartHome
